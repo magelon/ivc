@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Favorites</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-item-sliding *ngFor="let broker of brokers">
+            <button ion-item (click)="itemTapped(broker)">
+                <ion-thumbnail item-left>
+                    <img src="./Face/{{broker.firstName}}{{broker.lastName}}/Face_FC.png"/>
+                </ion-thumbnail>
+                <h2>{{broker.firstName}}</h2>
+                <p>{{broker.title}}</p>
+            </button>
+            <ion-item-options>
+                <button danger (click)="deleteItem(broker)">Delete</button>
+            </ion-item-options>
+        </ion-item-sliding>
+    </ion-list>
+</ion-content>
