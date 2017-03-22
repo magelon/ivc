@@ -10,56 +10,91 @@
 
        
         <ion-card-content>
-             
+            <img src="./weapon/{{broker.weapon}}.png"/>
+             <img src="./unit/{{broker.unit}}.png"/>
             <img src="./Face/{{broker.firstName}}{{broker.lastName}}/Face_FC.png"/>
+            
+           
+
               
             <h2>{{broker.firstName}} {{broker.lastName}}</h2>
             <h3>{{broker.title}}</h3>
         </ion-card-content>
          
-        <button ion-item (click)="openArts(broker)"><ion-icon name="brush" item-left></ion-icon>{{broker.artby}}</button> 
+ 
+        <button ion-item (click)="openArtsPage(broker)"><ion-icon name="brush" item-left></ion-icon>{{broker.artby}}</button> 
+       
         
+  <ion-slides pager [options]="{pager: true}">
 
-        <ion-list>
-            <a href="tel:" ion-item>
+  <ion-slide style="background-color: green">
+     <ion-list>      
+           <ion-item>
                 <ion-icon name="" item-left>HP </ion-icon>
                 <p>LV.1</p>
                 <h2>{{broker.hp}}</h2>
-            </a>
-            <a href="tel:" ion-item>
+            </ion-item>  
+            <ion-item>
                 <ion-icon name="" item-left>ATK</ion-icon>
                 <p>LV.1</p>
                 <h2>{{broker.atk}}</h2>
-            </a>
-            <a href="tel:" ion-item>
+             </ion-item>
+            
+            <ion-item>
                 <ion-icon name="" item-left>SPD</ion-icon>
                 <p>LV.1</p>
                 <h2>{{broker.spd}}</h2>
-            </a>
-            <a href="tel:" ion-item>
+            </ion-item>
+            
+            <ion-item>
                 <ion-icon name="" item-left>DEF</ion-icon>
                 <p>LV.1</p>
                 <h2>{{broker.def}}</h2>
-            </a>
-            <a href="tel:" ion-item>
+            </ion-item>
+            
+            <ion-item>
                 <ion-icon name="" item-left>RES</ion-icon>
                 <p>LV.1</p>
                 <h2>{{broker.res}}</h2>
-            </a>
+           </ion-item>
+            
         </ion-list>
+  </ion-slide>
 
+  <ion-slide style="background-color: green">
+     <ion-list>
+         <ion-item>
+             <ion-icon name="" item-left>SkillA</ion-icon>
+                <h2>{{broker.skills.skillA}}</h2>
+         </ion-item>
+          <ion-item>
+             <ion-icon name="" item-left>SkillB</ion-icon>
+                <h2>{{broker.skills.skillB}}</h2>
+         </ion-item>
+          <ion-item>
+             <ion-icon name="" item-left>SkillC</ion-icon>
+                <h2>{{broker.skills.skillC}}</h2>
+         </ion-item>
+     </ion-list>
+
+  </ion-slide>
+
+</ion-slides>
+       
          <ion-item>
             <button ion-button icon-left (click)="favorite(broker)" clear item-left>
                 <ion-icon name="star"></ion-icon>
                 Favorite
             </button>
-
-              <button ion-button icon-left (click)="share(broker)" clear item-right>
+                    
+              <button ion-button icon-right (click)="share(broker)" clear item-right>
                 <ion-icon name="star"></ion-icon>
                 LV.40
             </button>
 
-             </ion-item>
+          </ion-item>
     </ion-card>
+
+      
 
 </ion-content>

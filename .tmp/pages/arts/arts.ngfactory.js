@@ -418,7 +418,7 @@ var _View_Arts0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_Arts0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_Arts === null)) {
-        (renderType_Arts = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/pages/arts/arts.html', 0, import10.ViewEncapsulation.None, styles_Arts, {}));
+        (renderType_Arts = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/pages/arts/arts.html', 0, import10.ViewEncapsulation.None, styles_Arts, {}));
     }
     return new _View_Arts0(viewUtils, parentInjector, declarationEl);
 }

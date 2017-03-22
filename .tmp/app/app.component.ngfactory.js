@@ -104,7 +104,7 @@ var _View_MyApp0 = (function (_super) {
         this._text_3 = this.renderer.createText(null, '\n\n    ', null);
         this._el_4 = this.renderer.createElement(null, 'img', null);
         this.renderer.setElementAttribute(this._el_4, 'class', 'menu-logo');
-        this.renderer.setElementAttribute(this._el_4, 'src', 'assets/img/item.png');
+        this.renderer.setElementAttribute(this._el_4, 'src', 'assets/img/Item.png');
         this._text_5 = this.renderer.createText(null, '\n\n    ', null);
         this._el_6 = this.renderer.createElement(null, 'ion-list', null);
         this._List_6_3 = new import14.List(this.parentInjector.get(import22.Config), new import21.ElementRef(this._el_6), this.renderer, this.parentInjector.get(import25.GestureController));
@@ -388,7 +388,7 @@ var _View_MyApp0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_MyApp0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_MyApp === null)) {
-        (renderType_MyApp = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/app/app.html', 0, import9.ViewEncapsulation.None, styles_MyApp, {}));
+        (renderType_MyApp = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/app/app.html', 0, import9.ViewEncapsulation.None, styles_MyApp, {}));
     }
     return new _View_MyApp0(viewUtils, parentInjector, declarationEl);
 }

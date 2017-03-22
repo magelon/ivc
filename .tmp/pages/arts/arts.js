@@ -9,24 +9,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-/*
-  Generated class for the Arts page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 export var Arts = (function () {
     function Arts(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.broker = this.navParams.data;
     }
-    Arts.prototype.ionViewDidLoad = function () {
-        console.log('Hello Arts Page');
-    };
     Arts = __decorate([
         Component({
-            selector: 'page-arts',template:/*ion-inline-start:"C:\Users\guojin\Desktop\server\iv\src\pages\arts\arts.html"*/'<!--\n  Generated template for the Arts page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Arts</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n<div>\n</div>\n<ion-slides pager [options]="{pager: true}">\n\n\n\n\n\n\n\n  <ion-slide style="background-color: green">\n\n     <img src="./Face/{{broker.firstName}}{{broker.lastName}}/BtlFace.png"/>\n\n  </ion-slide>\n\n\n\n  <ion-slide style="background-color: blue">\n\n    <img src="./Face/{{broker.firstName}}{{broker.lastName}}/BtlFace_C.png"/>\n\n  </ion-slide>\n\n\n\n  <ion-slide style="background-color: red">\n\n    <img src="./Face/{{broker.firstName}}{{broker.lastName}}/BtlFace_D.png"/>\n\n  </ion-slide>\n\n\n\n  <ion-slide style="background-color: green">\n\n     <img src="./Face/{{broker.firstName}}{{broker.lastName}}/Face.png"/>\n\n  </ion-slide>\n\n\n\n</ion-slides>\n'/*ion-inline-end:"C:\Users\guojin\Desktop\server\iv\src\pages\arts\arts.html"*/
+            selector: 'page-arts',template:/*ion-inline-start:"C:\Users\guojin\Desktop\server\ivc\src\pages\arts\arts.html"*/'\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Arts</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n<div>\n</div>\n<ion-slides pager [options]="{pager: true}">\n\n\n\n\n\n\n\n  <ion-slide style="background-color: green">\n\n     <img src="./Face/{{broker.firstName}}{{broker.lastName}}/BtlFace.png"/>\n\n  </ion-slide>\n\n\n\n  <ion-slide style="background-color: blue">\n\n    <img src="./Face/{{broker.firstName}}{{broker.lastName}}/BtlFace_C.png"/>\n\n  </ion-slide>\n\n\n\n  <ion-slide style="background-color: red">\n\n    <img src="./Face/{{broker.firstName}}{{broker.lastName}}/BtlFace_D.png"/>\n\n  </ion-slide>\n\n\n\n  <ion-slide style="background-color: green">\n\n     <img src="./Face/{{broker.firstName}}{{broker.lastName}}/Face.png"/>\n\n  </ion-slide>\n\n\n\n</ion-slides>\n'/*ion-inline-end:"C:\Users\guojin\Desktop\server\ivc\src\pages\arts\arts.html"*/
         }), 
         __metadata('design:paramtypes', [NavController, NavParams])
     ], Arts);

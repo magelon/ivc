@@ -223,7 +223,7 @@ var _View_PropertyDetailPage0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_PropertyDetailPage0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_PropertyDetailPage === null)) {
-        (renderType_PropertyDetailPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/pages/property-detail/property-detail.html', 0, import13.ViewEncapsulation.None, styles_PropertyDetailPage, {}));
+        (renderType_PropertyDetailPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/pages/property-detail/property-detail.html', 0, import13.ViewEncapsulation.None, styles_PropertyDetailPage, {}));
     }
     return new _View_PropertyDetailPage0(viewUtils, parentInjector, declarationEl);
 }

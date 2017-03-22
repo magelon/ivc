@@ -141,7 +141,7 @@ var _View_AboutPage0 = (function (_super) {
         this.renderer.setElementAttribute(this._el_16, 'class', 'about-header');
         this._text_17 = this.renderer.createText(this._el_16, '\n        ', null);
         this._el_18 = this.renderer.createElement(this._el_16, 'img', null);
-        this.renderer.setElementAttribute(this._el_18, 'src', 'assets/img/item.png');
+        this.renderer.setElementAttribute(this._el_18, 'src', 'assets/img/Item.png');
         this._text_19 = this.renderer.createText(this._el_16, '\n    ', null);
         this._text_20 = this.renderer.createText(null, '\n\n    ', null);
         this._el_21 = this.renderer.createElement(null, 'div', null);
@@ -307,7 +307,7 @@ var _View_AboutPage0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_AboutPage0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_AboutPage === null)) {
-        (renderType_AboutPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/pages/about/about.html', 0, import9.ViewEncapsulation.None, styles_AboutPage, {}));
+        (renderType_AboutPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/pages/about/about.html', 0, import9.ViewEncapsulation.None, styles_AboutPage, {}));
     }
     return new _View_AboutPage0(viewUtils, parentInjector, declarationEl);
 }

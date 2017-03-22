@@ -739,7 +739,7 @@ class _View_PropertyListPage0 extends import1.AppView<import3.PropertyListPage> 
   }
 }
 export function viewFactory_PropertyListPage0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.PropertyListPage> {
-  if ((renderType_PropertyListPage === (null as any))) { (renderType_PropertyListPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/pages/property-list/property-list.html',0,import11.ViewEncapsulation.None,styles_PropertyListPage,{})); }
+  if ((renderType_PropertyListPage === (null as any))) { (renderType_PropertyListPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/pages/property-list/property-list.html',0,import11.ViewEncapsulation.None,styles_PropertyListPage,{})); }
   return new _View_PropertyListPage0(viewUtils,parentInjector,declarationEl);
 }
 class _View_PropertyListPage1 extends import1.AppView<any> {

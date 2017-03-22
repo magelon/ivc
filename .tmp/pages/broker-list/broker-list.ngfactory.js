@@ -461,7 +461,7 @@ var _View_BrokerListPage0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_BrokerListPage0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_BrokerListPage === null)) {
-        (renderType_BrokerListPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/pages/broker-list/broker-list.html', 0, import10.ViewEncapsulation.None, styles_BrokerListPage, {}));
+        (renderType_BrokerListPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/pages/broker-list/broker-list.html', 0, import10.ViewEncapsulation.None, styles_BrokerListPage, {}));
     }
     return new _View_BrokerListPage0(viewUtils, parentInjector, declarationEl);
 }

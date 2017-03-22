@@ -5,6 +5,7 @@ import brokers from './mock-brokers';
 export class BrokerService {
 
     favorites: any = [];
+    
 
     findAll() {
         return Promise.resolve(brokers);
@@ -19,6 +20,13 @@ export class BrokerService {
         return Promise.resolve(brokers.filter((brokers: any) =>
             (brokers.firstName + ' ' + brokers.lastName + ' ' + brokers.title).toUpperCase().indexOf(key) > -1));
     }
+
+    findBySkill(skill) {
+        let key: string = skill;
+        return Promise.resolve(brokers.filter((brokers: any) =>
+            (brokers.skillA + ' ' + brokers.skillB + ' ' + brokers.skillC).toUpperCase().indexOf(key) > -1));
+    }
+
 
     favorite(broker) {
         this.favorites.push(broker);

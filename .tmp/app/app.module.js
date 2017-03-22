@@ -18,8 +18,12 @@ import { BrokerDetailPage } from '../pages/broker-detail/broker-detail';
 import { FavoriteListPage } from '../pages/favorite-list/favorite-list';
 import { AboutPage } from '../pages/about/about';
 import { Arts } from '../pages/arts/arts';
+import { Skills } from '../pages/skills/skills';
+import { HeroSkills } from '../pages/hero-skills/hero-skills';
+import { SkillDetail } from '../pages/skill-detail/skill-detail';
 import { PropertyService } from "../providers/property-service-mock";
 import { BrokerService } from "../providers/broker-service-mock";
+import { SkillServiceMock } from "../providers/skill-service-mock";
 export var AppModule = (function () {
     function AppModule() {
     }
@@ -34,7 +38,10 @@ export var AppModule = (function () {
                 FavoriteListPage,
                 BrokerListPage,
                 BrokerDetailPage,
-                Arts
+                Arts,
+                Skills,
+                HeroSkills,
+                SkillDetail
             ],
             imports: [
                 IonicModule.forRoot(MyApp)
@@ -49,9 +56,12 @@ export var AppModule = (function () {
                 FavoriteListPage,
                 BrokerListPage,
                 BrokerDetailPage,
-                Arts
+                Arts,
+                Skills,
+                HeroSkills,
+                SkillDetail
             ],
-            providers: [PropertyService, BrokerService]
+            providers: [PropertyService, BrokerService, SkillServiceMock]
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);

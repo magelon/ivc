@@ -336,7 +336,7 @@ class _View_FavoriteListPage0 extends import1.AppView<import3.FavoriteListPage> 
   }
 }
 export function viewFactory_FavoriteListPage0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.FavoriteListPage> {
-  if ((renderType_FavoriteListPage === (null as any))) { (renderType_FavoriteListPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/pages/favorite-list/favorite-list.html',0,import10.ViewEncapsulation.None,styles_FavoriteListPage,{})); }
+  if ((renderType_FavoriteListPage === (null as any))) { (renderType_FavoriteListPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/pages/favorite-list/favorite-list.html',0,import10.ViewEncapsulation.None,styles_FavoriteListPage,{})); }
   return new _View_FavoriteListPage0(viewUtils,parentInjector,declarationEl);
 }
 class _View_FavoriteListPage1 extends import1.AppView<any> {

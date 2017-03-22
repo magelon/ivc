@@ -428,6 +428,6 @@ class _View_WelcomePage0 extends import1.AppView<import3.WelcomePage> {
   }
 }
 export function viewFactory_WelcomePage0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.WelcomePage> {
-  if ((renderType_WelcomePage === (null as any))) { (renderType_WelcomePage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/pages/welcome/welcome.html',0,import8.ViewEncapsulation.None,styles_WelcomePage,{})); }
+  if ((renderType_WelcomePage === (null as any))) { (renderType_WelcomePage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/pages/welcome/welcome.html',0,import8.ViewEncapsulation.None,styles_WelcomePage,{})); }
   return new _View_WelcomePage0(viewUtils,parentInjector,declarationEl);
 }

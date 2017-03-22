@@ -14,6 +14,7 @@ import { BrokerListPage } from '../pages/broker-list/broker-list';
 import { FavoriteListPage } from '../pages/favorite-list/favorite-list';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { AboutPage } from '../pages/about/about';
+import { Skills } from '../pages/skills/skills';
 export var MyApp = (function () {
     function MyApp(platform) {
         this.platform = platform;
@@ -22,7 +23,7 @@ export var MyApp = (function () {
         this.appMenuItems = [
             //{title: 'Properties', component: PropertyListPage, icon: 'home'},
             { title: 'Heroes', component: BrokerListPage, icon: 'people' },
-            // { title: 'Arts', component: Arts, icon: 'people' },
+            { title: 'Skills', component: Skills, icon: 'settings' },
             { title: 'Favorites', component: FavoriteListPage, icon: 'star' },
         ];
         this.helpMenuItems = [
@@ -48,7 +49,7 @@ export var MyApp = (function () {
         __metadata('design:type', Nav)
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Component({template:/*ion-inline-start:"C:\Users\guojin\Desktop\server\iv\src\app\app.html"*/'<ion-menu [content]="content">\n\n\n\n  <ion-content>\n\n\n\n    <img src="assets/img/Item.png" class="menu-logo"/>\n\n\n\n    <ion-list>\n\n      <ion-list-header>\n\n        Allies\n\n      </ion-list-header>\n\n      <button menuClose ion-item *ngFor="let menuItem of appMenuItems" (click)="openPage(menuItem)">\n\n        <ion-icon item-left [name]="menuItem.icon"></ion-icon>\n\n        {{menuItem.title}}\n\n      </button>\n\n    </ion-list>\n\n\n\n    <ion-list>\n\n      <ion-list-header>\n\n        Help\n\n      </ion-list-header>\n\n      <button menuClose ion-item *ngFor="let menuItem of helpMenuItems" (click)="openPage(menuItem)">\n\n        <ion-icon item-left [name]="menuItem.icon"></ion-icon>\n\n        {{menuItem.title}}\n\n      </button>\n\n    </ion-list>\n\n\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\guojin\Desktop\server\iv\src\app\app.html"*/
+        Component({template:/*ion-inline-start:"C:\Users\guojin\Desktop\server\ivc\src\app\app.html"*/'<ion-menu [content]="content">\n\n\n\n  <ion-content>\n\n\n\n    <img src="assets/img/Item.png" class="menu-logo"/>\n\n\n\n    <ion-list>\n\n      <ion-list-header>\n\n        Allies\n\n      </ion-list-header>\n\n      <button menuClose ion-item *ngFor="let menuItem of appMenuItems" (click)="openPage(menuItem)">\n\n        <ion-icon item-left [name]="menuItem.icon"></ion-icon>\n\n        {{menuItem.title}}\n\n      </button>\n\n    </ion-list>\n\n\n\n    <ion-list>\n\n      <ion-list-header>\n\n        Help\n\n      </ion-list-header>\n\n      <button menuClose ion-item *ngFor="let menuItem of helpMenuItems" (click)="openPage(menuItem)">\n\n        <ion-icon item-left [name]="menuItem.icon"></ion-icon>\n\n        {{menuItem.title}}\n\n      </button>\n\n    </ion-list>\n\n\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\guojin\Desktop\server\ivc\src\app\app.html"*/
         }), 
         __metadata('design:paramtypes', [Platform])
     ], MyApp);

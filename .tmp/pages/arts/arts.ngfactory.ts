@@ -460,6 +460,6 @@ class _View_Arts0 extends import1.AppView<import3.Arts> {
   }
 }
 export function viewFactory_Arts0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.Arts> {
-  if ((renderType_Arts === (null as any))) { (renderType_Arts = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/pages/arts/arts.html',0,import10.ViewEncapsulation.None,styles_Arts,{})); }
+  if ((renderType_Arts === (null as any))) { (renderType_Arts = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/pages/arts/arts.html',0,import10.ViewEncapsulation.None,styles_Arts,{})); }
   return new _View_Arts0(viewUtils,parentInjector,declarationEl);
 }

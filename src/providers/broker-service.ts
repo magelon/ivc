@@ -31,6 +31,12 @@ export class BrokerService {
             .toPromise();
     }
 
+    findBySkill(skill) {
+        return this.http.get(brokersURL + skill)
+            .map(res => res.json())
+            .toPromise();
+    }
+
     favorite(broker) {
         let body = JSON.stringify(broker),
             headers = new Headers({ 'Content-Type': 'application/json' }),

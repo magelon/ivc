@@ -703,7 +703,7 @@ var _View_PropertyListPage0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_PropertyListPage0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_PropertyListPage === null)) {
-        (renderType_PropertyListPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/pages/property-list/property-list.html', 0, import11.ViewEncapsulation.None, styles_PropertyListPage, {}));
+        (renderType_PropertyListPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/pages/property-list/property-list.html', 0, import11.ViewEncapsulation.None, styles_PropertyListPage, {}));
     }
     return new _View_PropertyListPage0(viewUtils, parentInjector, declarationEl);
 }

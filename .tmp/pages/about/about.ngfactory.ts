@@ -189,7 +189,7 @@ class _View_AboutPage0 extends import1.AppView<import3.AboutPage> {
     this.renderer.setElementAttribute(this._el_16,'class','about-header');
     this._text_17 = this.renderer.createText(this._el_16,'\n        ',(null as any));
     this._el_18 = this.renderer.createElement(this._el_16,'img',(null as any));
-    this.renderer.setElementAttribute(this._el_18,'src','assets/img/item.png');
+    this.renderer.setElementAttribute(this._el_18,'src','assets/img/Item.png');
     this._text_19 = this.renderer.createText(this._el_16,'\n    ',(null as any));
     this._text_20 = this.renderer.createText((null as any),'\n\n    ',(null as any));
     this._el_21 = this.renderer.createElement((null as any),'div',(null as any));
@@ -332,6 +332,6 @@ class _View_AboutPage0 extends import1.AppView<import3.AboutPage> {
   }
 }
 export function viewFactory_AboutPage0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.AboutPage> {
-  if ((renderType_AboutPage === (null as any))) { (renderType_AboutPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/pages/about/about.html',0,import9.ViewEncapsulation.None,styles_AboutPage,{})); }
+  if ((renderType_AboutPage === (null as any))) { (renderType_AboutPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/pages/about/about.html',0,import9.ViewEncapsulation.None,styles_AboutPage,{})); }
   return new _View_AboutPage0(viewUtils,parentInjector,declarationEl);
 }

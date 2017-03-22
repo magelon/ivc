@@ -394,7 +394,7 @@ var _View_WelcomePage0 = (function (_super) {
 }(import1.AppView));
 export function viewFactory_WelcomePage0(viewUtils, parentInjector, declarationEl) {
     if ((renderType_WelcomePage === null)) {
-        (renderType_WelcomePage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/pages/welcome/welcome.html', 0, import8.ViewEncapsulation.None, styles_WelcomePage, {}));
+        (renderType_WelcomePage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/pages/welcome/welcome.html', 0, import8.ViewEncapsulation.None, styles_WelcomePage, {}));
     }
     return new _View_WelcomePage0(viewUtils, parentInjector, declarationEl);
 }

@@ -25,6 +25,12 @@ export var BrokerService = (function () {
             return (brokers.firstName + ' ' + brokers.lastName + ' ' + brokers.title).toUpperCase().indexOf(key) > -1;
         }));
     };
+    BrokerService.prototype.findBySkill = function (skill) {
+        var key = skill;
+        return Promise.resolve(brokers.filter(function (brokers) {
+            return (brokers.skillA + ' ' + brokers.skillB + ' ' + brokers.skillC).toUpperCase().indexOf(key) > -1;
+        }));
+    };
     BrokerService.prototype.favorite = function (broker) {
         this.favorites.push(broker);
         return Promise.resolve();

@@ -230,7 +230,7 @@ class _View_PropertyDetailPage0 extends import1.AppView<import3.PropertyDetailPa
   }
 }
 export function viewFactory_PropertyDetailPage0(viewUtils:import4.ViewUtils,parentInjector:import5.Injector,declarationEl:import2.AppElement):import1.AppView<import3.PropertyDetailPage> {
-  if ((renderType_PropertyDetailPage === (null as any))) { (renderType_PropertyDetailPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/iv/.tmp/pages/property-detail/property-detail.html',0,import13.ViewEncapsulation.None,styles_PropertyDetailPage,{})); }
+  if ((renderType_PropertyDetailPage === (null as any))) { (renderType_PropertyDetailPage = viewUtils.createRenderComponentType('C:/Users/guojin/Desktop/server/ivc/.tmp/pages/property-detail/property-detail.html',0,import13.ViewEncapsulation.None,styles_PropertyDetailPage,{})); }
   return new _View_PropertyDetailPage0(viewUtils,parentInjector,declarationEl);
 }
 class _View_PropertyDetailPage1 extends import1.AppView<any> {

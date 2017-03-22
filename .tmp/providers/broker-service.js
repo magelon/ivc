@@ -32,6 +32,11 @@ export var BrokerService = (function () {
             .map(function (res) { return res.json(); })
             .toPromise();
     };
+    BrokerService.prototype.findBySkill = function (skill) {
+        return this.http.get(brokersURL + skill)
+            .map(function (res) { return res.json(); })
+            .toPromise();
+    };
     BrokerService.prototype.favorite = function (broker) {
         var body = JSON.stringify(broker), headers = new Headers({ 'Content-Type': 'application/json' }), options = new RequestOptions({ headers: headers });
         return this.http.post(brokersURL, body, options).toPromise();
